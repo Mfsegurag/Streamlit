@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import openpyxl
 
 import pip
 pip.main(["install","openpyxl"])
