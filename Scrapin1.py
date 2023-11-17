@@ -5,7 +5,7 @@ import pip
 from importlib import import_module
 pip.main(["install","selenium"])
 #pip.main(["import","selenium"])
-selenium = import_module("selenium")
+import_module("selenium")
 #import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
