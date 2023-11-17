@@ -4,7 +4,7 @@ import base64
 import pip
 from importlib import import_module
 pip.main(["install","selenium"])
-#pip.main(["import","selenium"])
+pip.main(["import","selenium"])
 import selenium.webdriver
 #import selenium
 #from selenium import webdriver
