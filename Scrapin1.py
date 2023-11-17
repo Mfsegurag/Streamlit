@@ -3,7 +3,7 @@ import pandas as pd
 import base64
 import pip
 pip.main(["install","selenium"])
-import selenium
+#import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
