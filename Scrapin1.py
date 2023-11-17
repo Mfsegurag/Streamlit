@@ -5,9 +5,9 @@ import pip
 from importlib import import_module
 pip.main(["install","selenium"])
 #pip.main(["import","selenium"])
-import_module(["import","selenium"])
+import selenium.webdriver
 #import selenium
-from selenium import webdriver
+#from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
