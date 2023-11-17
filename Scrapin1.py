@@ -2,12 +2,9 @@ import streamlit as st
 import pandas as pd
 import base64
 import pip
-from importlib import import_module
 pip.main(["install","selenium"])
-pip.main(["import","selenium"])
-import selenium.webdriver
-#import selenium
-#from selenium import webdriver
+#pip.main(["import","selenium"])
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
