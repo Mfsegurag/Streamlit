@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
 import base64
-import pip
-pip.main(["install","selenium"])
+import selenium
+#import pip
+#pip.main(["install","selenium"])
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
@@ -28,7 +29,7 @@ y = st.date_input('Fecha de inicio del bloque: ', value=datetime(2023, 9, 25))
 x = st.date_input('Fecha de corte para generar la alerta de inactividad:', value=datetime(2023, 11, 14))#value=datetime.now())#st.text_input('Fecha de corte para generar la alerta: ', 'dd-m-yyyy-hh-mm')
 
 # Agrega un espacio para que el usuario ingrese el código
-user_email = st.text_input('correo electrónico ucn', '')
+user_email = st.text_input('correo electrónico ucn', '@ucn.edu.co')
 
 # Agrega un espacio para que el usuario ingrese el código
 user_code = st.text_input('Ingrese la contraseña de acceso', '', type='password')
